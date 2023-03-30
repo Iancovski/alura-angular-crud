@@ -1,0 +1,33 @@
+footer {
+  background-image: url(../../../assets/images/footer-background.png);
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr;
+  gap: 0px 0px;
+  grid-template-areas:
+    "copyright-text footer-logo .";
+  align-items: center;
+  padding: 1rem 2rem;
+}
+
+.copyright-text {
+  justify-self: center;
+  grid-area: copyright-text;
+}
+
+.footer-logo {
+  justify-self: center;
+  grid-area: footer-logo;
+}
+
+footer small {
+  color: white;
+}
+
+@media (max-width: 768px) {
+  footer {
+    display: flex;
+    flex-direction: column-reverse;
+    gap: 1rem;
+  }
+}

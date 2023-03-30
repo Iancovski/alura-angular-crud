@@ -1,0 +1,13 @@
+<div class="thinking model-{{ thinking.model }} ff-roboto-mono" [ngClass]="widthThinking()">
+  <img src="../../../../assets/images/model-{{ thinking.model }}.png" alt="Aspas coloridas">
+  <p class="conteudo">{{ thinking.content }}</p>
+  <p class="autoria"><b>{{ thinking.author }}</b></p>
+  <div class="actions">
+    <button class="edit-button" routerLink="/thinking/update/{{thinking.id}}">
+      <img src="../../../../assets/images/edit-icon.png" alt="Ícone de editar">
+    </button>
+    <button class="delete-button" routerLink="/thinking/delete/{{thinking.id}}">
+      <img src="../../../../assets/images/delete-icon.png" alt="Ícone de excluir">
+    </button>
+  </div>
+</div>

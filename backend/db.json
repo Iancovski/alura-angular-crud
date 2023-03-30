@@ -1,0 +1,22 @@
+{
+  "thinking": [
+    {
+      "id": 1,
+      "content": "Pensamento teste 1",
+      "author": "Autor teste 1",
+      "model": 1
+    },
+    {
+      "id": 2,
+      "content": "Pensamento teste 2",
+      "author": "Autor teste 2",
+      "model": 2
+    },
+    {
+      "id": 3,
+      "content": "Pensamento teste 3",
+      "author": "Autor teste 3",
+      "model": 3
+    }
+  ]
+}

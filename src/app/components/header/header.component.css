@@ -1,0 +1,45 @@
+.main-header {
+  background: url(../../../assets/images/header-background.png);
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.main-header .logo {
+  width: 46%;
+  padding: 2rem 3rem;
+}
+
+.main-header .logo img {
+  width: 90%;
+  max-width: 350px;
+  margin-bottom: 2rem;
+}
+
+.main-header .Image {
+  width: 40%;
+}
+
+.main-header p {
+  font-size: 2rem;
+  color: #6BD1FF;
+}
+
+@media (max-width: 576px) {
+  .main-header .logo {
+    padding: 2rem;
+  }
+  .main-header p {
+    font-size: 1.5rem
+  }
+}
+
+@media (max-width: 768px) {
+  .main-header .logo {
+    width: 90%;
+  }
+  .main-header .image {
+    display: none;
+  }
+}
